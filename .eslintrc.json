@@ -22,6 +22,7 @@
   "parser": "babel-eslint",
   "plugins": ["react"],
   "rules": {
+    "annotation-no-unknown": true,
     "linebreak-style": ["error", "unix"], //"semi": ["error", "always"],
     "no-empty": 0,
     "comma-dangle": 0,
