@@ -4,6 +4,7 @@ import { BrowserRouter as Router, useRoutes } from 'react-router-dom'
 import { Provider } from 'react-redux';
 import routes from './router/index'
 import store from './store/index'
+import './index.scss'
 
 
 const GetRoutes = () => { return useRoutes(routes) }
